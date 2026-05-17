@@ -1,0 +1,20 @@
+{
+    "Default": {
+        "delay": 0.01,
+        "button": "left",
+        "start_key": "a",
+        "exit_key": "b",
+        "mode": "toggle",
+        "jitter": false,
+        "jitter_pct": 0.2
+    },
+    "Custom": {
+        "delay": 0.02,
+        "button": "left",
+        "mode": "toggle",
+        "jitter": false,
+        "jitter_pct": 0.2,
+        "start_key": "p",
+        "exit_key": "b"
+    }
+}
