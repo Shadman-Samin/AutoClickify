@@ -9,8 +9,8 @@ class AutoClickerGUI:
         self.profile_manager = profile_manager
         
         self.root = tk.Tk()
-        self.root.title("Auto Clicker Pro")
-        self.root.geometry("450x500")
+        self.root.title("AutoClickify")
+        self.root.geometry("400x400")
         self.root.resizable(False, False)
         
         # Configure style
