@@ -10,7 +10,7 @@ class AutoClickerGUI:
         
         self.root = tk.Tk()
         self.root.title("AutoClickify")
-        self.root.geometry("400x400")
+        self.root.geometry("450x500")
         self.root.resizable(False, False)
         
         # Configure style
