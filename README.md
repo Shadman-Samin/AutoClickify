@@ -18,42 +18,33 @@ AutoClickify is a production-quality, cross-platform Auto Clicker application bu
 - `pynput` (for mouse and keyboard control)
 - Other dependencies as required by the GUI framework (e.g., `customtkinter`, `tkinter`)
 
-## Installation
+## Installation & Usage
 
+### Running from Source
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Shadman-Samin/AutoClickify.git
    cd AutoClickify
    ```
 
-2. **Create a virtual environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   # On Windows:
-   venv\Scripts\activate
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies:**
-   Make sure to install the required libraries. If a `requirements.txt` is present, run:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   Otherwise, install `pynput` and GUI requirements manually:
+2. **Install dependencies:**
    ```bash
    pip install pynput
    ```
 
-## Usage
-
-1. Run the application:
+3. **Run the application:**
    ```bash
    python main.py
    ```
-2. Use the GUI to configure your desired click interval, mouse button (left/right/middle), and hotkeys.
-3. Start the clicker using the configured hotkey or the start button in the UI.
-4. Stop the clicker using the hotkey or the stop button.
+
+### Running Standalone (Windows)
+If you have built the executable, you can run `AutoClickify.exe` directly from the root directory. No command prompt will open, only the GUI.
+
+## Building the Executable
+To rebuild the standalone executable without a console window:
+```bash
+pyinstaller --onefile --noconsole --distpath . --name AutoClickify --clean main.py
+```
 
 ## Architecture
 

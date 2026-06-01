@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+*.exe
+
+# Local agent documentation
+agents.md
