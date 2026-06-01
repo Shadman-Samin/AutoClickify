@@ -40,6 +40,9 @@ AutoClickify is a production-quality, cross-platform Auto Clicker application bu
 ### Running Standalone (Windows)
 If you have built the executable, you can run `AutoClickify.exe` directly from the root directory. No command prompt will open, only the GUI.
 
+**Download the latest release:**
+<a href="https://mega.nz/file/1l8k2B7Y#7cHzzfbavP9psWBsG2vynP4sex7Wk4CDk9UAYetMVsA" target="_blank">Download AutoClickify.exe from MEGA</a>
+
 ## Building the Executable
 To rebuild the standalone executable without a console window:
 ```bash
